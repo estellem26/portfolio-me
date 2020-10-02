@@ -1,0 +1,455 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: "OpenSans-Bold";
+}
+
+@font-face{
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-family: "OpenSans-SemiBold";
+}
+
+@font-face{
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans-regular";
+}
+
+#navbar{
+    font-family: "OpenSans-Semibold";
+    font-size: 30px;
+    text-align: right;
+    padding-right:70px;
+    padding-top: 47px;
+    
+    
+}
+
+#navbar :hover{
+    color: #D89F5B;
+}
+
+.menu1{
+    padding-right: 50px;
+    color: #BF936C;
+    text-decoration: underline;
+
+}
+.menu{
+    padding-right: 50px;
+    color: #BF936C;
+    text-decoration: none;
+}
+
+
+.Title{
+    font-family: "OpenSans-Bold";
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 89px;
+    padding-top: 302px;
+    
+
+}
+
+.Presentation{
+    font-family: "OpenSans-Semibold";
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: 89px;
+    padding-top: 30px;
+   
+
+}
+
+.Subtitle{
+    font-family: "OpenSans-Semibold";
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 89px;
+    padding-top: 20px;
+    
+    
+}
+
+.Nombre{
+    font-family: "OpenSans-Semibold";
+    font-size: 40px;
+    font-weight: 600;
+    color: #D89F5B;
+}
+
+.Designer{
+    font-family: "OpenSans-Semibold";
+    font-size: 40px;
+    font-weight: 600;
+    border-bottom: 8px solid #D89F5B;
+    border-radius: 2px;
+    
+
+}
+
+#Myself{
+    text-align: right;
+    padding-top: 190px;
+    padding-bottom: 108px;
+    padding-right: 20px;
+    
+    
+}
+
+#Myself img{
+    width: 500px;
+    
+    
+}
+
+#Page1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    background-color: rgba(216, 159, 91, 0.3);
+    /* height: 619px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display:flex;
+    align-items: center;
+    
+    
+    
+}
+
+.Section-about{
+    font-family:"OpenSans-Semibold";
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: 180px;
+    
+}
+
+.Description{
+    font-family:"OpenSans-regular";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 130px;
+    line-height: 35pt;
+   
+    
+}
+
+.about-me{
+    white-space: nowrap;
+    border-bottom: 18px solid #D89F5B;
+    width: 130%;
+}
+
+
+#Page3{
+    padding:70px 80px;
+
+}
+
+.Section-Projects{
+    font-family:"OpenSans-SemiBold";
+    font-size: 40px;
+    font-weight: 600;
+    color: #BF936C;
+
+
+}
+
+.Project1{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.project-img{
+    width: 50%;
+    border: 2px solid #D89F5B; 
+}
+
+
+.project-info{
+    width: 50%;
+    padding-left: 80px;
+
+}
+
+.project-foodea-title{
+    font-family: "OpenSans-regular";
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 40px;
+
+}
+
+.project-foodea-subtitle{
+    font-family: "OpenSans-regular";
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height: 30px;
+
+}
+
+@keyframes button{
+    0%{
+        padding: 8px 16px;
+    }
+    100%{
+        padding: 8px 30px;
+    }
+}
+
+.view-project{
+    font-family: "OpenSans-regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #D89F5B;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    text-align: center;
+    
+
+}
+
+
+.view-project:hover{
+    cursor: pointer;
+    padding: 8px 30px;
+    animation: button 1s;
+    
+
+    
+}
+
+
+.Project2{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+
+}
+
+.project2-img{
+    width: 50%;
+    border: 2px solid #D89F5B;
+}
+
+.project2-info{
+    width: 50%;
+}
+
+.project-efecto-title{
+    font-family: "OpenSans-regular";
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 40px;
+
+}
+
+.project-efecto-subtitle{
+    font-family: "OpenSans-regular";
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height: 30px;
+    padding-right: 40px;
+
+}
+
+.Project3{
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.project3-img{
+    width: 50%;
+    border: 2px solid #D89F5B;
+}
+
+.project3-info{
+    width: 50%;
+    padding-left: 80px;
+}
+
+.project-uber-title{
+    font-family: "OpenSans-regular";
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 40px;
+
+}
+
+.project-uber-subtitle{
+    font-family: "OpenSans-regular";
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height: 30px;
+
+}
+
+
+#Page4{
+    background-color:rgba(216, 159, 91, 0.3);
+    height: 619px;
+    
+}
+
+.contact{
+    font-family: "OpenSans-Bold";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 114px;
+}
+
+.mail{
+    
+    text-align: center;
+    padding-top: 86px;
+
+}
+
+.button{
+    font-family: "OpenSans-SemiBold";
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #D89F5B;
+    border: none;
+    color:white;
+    text-align: center;
+    padding: 16px 48px;
+    border-radius: 6px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.media2{
+    padding-left:300px;
+    padding-right:300px;
+}
+
+.number{
+    font-family:"OpenSans-regular";
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.resume{
+    font-family:"OpenSans-regular";
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+
+}
+
+.resume2{
+    font-family:"OpenSans-regular";
+    font-size: 25px;
+    font-weight: 400;
+    color: #D89F5B;
+    text-decoration: none;
+
+}
+
+.medium{
+    padding-right: 10px;
+}
+
+.linkedin{
+    padding-right: 10px;
+}
+
+
+.footer{
+    padding-top: 240px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.mobile-content{
+    display: none;
+}
+
+@media only screen and (max-width: 415px) {
+    h1, h2{
+        font-size: 14px;
+        font-family: "OpenSans-Regular";
+        
+        
+       
+    }
+
+    .desktop-content{
+        display: none;
+    }
+
+    .mobile-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+}
+
+
+.ipad-content{
+    display: none;
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    h1, h2{
+        font-size: 25px;
+        font-family: "OpenSans-Regular";
+        
+        
+       
+    }
+
+    .desktop-content{
+        display: none;
+    }
+
+    .ipad-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+  
+}
